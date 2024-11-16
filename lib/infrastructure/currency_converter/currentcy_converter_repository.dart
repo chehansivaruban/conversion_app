@@ -21,11 +21,10 @@ class CurrencyConverterRepository implements ICurrencyConverterRepository {
   @override
   Future<Either<Failure, ConversionResponse>> convertCurrency(
       String baseCurrency) async {
-    try {
-      final apiKey = Config.apiKey;
+    try{
       var res = await _apiHelper.request(
         HttpMethod.get,
-        'https://api.fxfeed.io/v1/latest?base=$baseCurrency&api_key=$apiKey',
+        'https://api.fxfeed.io/v1/latest?base=$baseCurrency&api_key=fxf_pTqGipeBUC7nWaEUsnH1',
         addDefaultParams: false,
         isExternal: true,
       );

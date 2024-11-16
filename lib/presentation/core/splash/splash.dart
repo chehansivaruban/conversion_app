@@ -68,6 +68,7 @@ class SplashPage extends HookConsumerWidget {
     );
 
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
         child: AnimatedContainer(
           width: logoWidth.value,

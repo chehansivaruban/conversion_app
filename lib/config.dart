@@ -12,5 +12,4 @@ mixin Config {
   static String get serverUrl => "https://api.in2dfuture.com/";
 
   static String get liveServerUrl => 'https://api.in2dfuture.com/';
-  static String get apiKey => 'fxf_8KDbls0o8XKSAZDp8eCy';
 }
