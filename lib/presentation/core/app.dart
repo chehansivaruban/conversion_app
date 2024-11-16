@@ -23,7 +23,7 @@ class App extends HookConsumerWidget {
           builder: (context, child) {
             return MaterialApp.router(
               routerConfig: appRouter.config(),
-              title: 'xyz',
+              title: 'Curency app',
               debugShowCheckedModeBanner: false,
               theme: theme,
             );
